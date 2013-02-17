@@ -73,8 +73,69 @@ LatexCommand tableofcontents
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-תקציר
+הקדמה
+\end_layout
+
+\begin_layout Standard
+מסמך זה מסכם פרויקט שהתבצע במסגרת קורס מס'
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+234329
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- "פרויקט בעיבוד וניתוח תמונות" תחת הנחייתו של פרופ' מיכאל לינדנבאום.
 \end_layout
 
 \begin_layout Section
@@ -89,16 +150,254 @@ LatexCommand tableofcontents
 הגדרות / טרמינולוגיה
 \end_layout
 
-\begin_layout Section
-פירוט שלבי העבודה ותוצאות הניסויים
+\begin_layout Standard
+בחלק זה יוגדרו מספר מושגים ורעיונות אשר ישמשו לתיאור שלבי הפרויקט השונים:
+\end_layout
+
+\begin_layout Itemize
+סצינה )
+\lang english
+Scene
+\lang hebrew
+(: מושג זה נועד לתאר 
+\bar under
+סדרה של פריימים, עוקבים או לאו, בסדר כרונולוגי עולה.
+
+\bar default
+ בהקשר של מסגרת הפרויקט, מושג זה ישמש בעיקר לתיאור רצפי פריימים בסרט שבהם
+ זוהו פנים.
+\end_layout
+
+\begin_layout Itemize
+חלון פנים )
+\lang english
+Face Window
+\lang hebrew
+(: מושג זה נועד לתאר 
+\bar under
+תת-פריים מלבני שזוהה כמכיל פנים.
+\end_layout
+
+\begin_layout Itemize
+רצף פנים )
+\lang english
+Face Sequence
+\lang hebrew
+(: 
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Video Feed
 \end_layout
 
 \begin_layout Section
-מימוש
+פירוט שלבי העבודה
+\end_layout
+
+\begin_layout Standard
+בחלק זה יפורטו השלבים השונים של העבודה שבוצעה במסגרת הפרויקט.
+\end_layout
+
+\begin_layout Subsection
+הכנה - כלים ותשתיות
+\end_layout
+
+\begin_layout Standard
+בחירת סדרה ודמויות, בחירת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+libSVM
+\lang hebrew
+, בניית
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+dataset
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+וכו'
+\end_layout
+
+\begin_layout Subsection
+בניית מסגרת )
+\lang english
+framework
+\lang hebrew
+( לעבודה עם סרטים
+\end_layout
+
+\begin_layout Subsection
+כוונון וטיוב המסגרת
+\end_layout
+
+\begin_layout Standard
+כוונון היפר-פרמטרים -
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+frme-interval
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+וכו'
+\end_layout
+
+\begin_layout Section
+תוצאות ניסויים
+\end_layout
+
+\begin_layout Section
+פרטי המימוש
+\end_layout
+
+\begin_layout Section
+תיעוד ה-
+\lang english
+API
 \end_layout
 
 \begin_layout Section
 כיוונים להמשך
+\end_layout
+
+\begin_layout Standard
+הסתברות מצטברת יותר "מעניינת" )לא בלתי-תלויה(, מימוש
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RT
+\lang hebrew
+, ניסויים עם סוגי מדיה אחרים
 \end_layout
 
 \begin_layout Section
